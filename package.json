@@ -1,0 +1,29 @@
+{
+  "name": "typescript-backbone-marionette",
+  "version": "1.0.0",
+  "description": "Simple Boilerplate for Backbone Marionette with Typescript and System.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daton89/typescript-backbone-marionette.git"
+  },
+  "keywords": [
+    "Backbone.js",
+    "Marionette.js",
+    "Typescript",
+    "System.js"
+  ],
+  "author": "Tony D'Angelo @daton89",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/daton89/typescript-backbone-marionette/issues"
+  },
+  "homepage": "https://github.com/daton89/typescript-backbone-marionette#readme",
+  "devDependencies": {
+    "jest": "^20.0.4",
+    "typescript": "^2.4.2"
+  }
+}
