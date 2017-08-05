@@ -1,4 +1,4 @@
-import { Marionette } from "backbone.marionette";
+import * as Marionette from "backbone.marionette";
 
 class MarionetteApp extends Marionette.Application {
     constructor() {
