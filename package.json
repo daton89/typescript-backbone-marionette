@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/daton89/typescript-backbone-marionette#readme",
   "devDependencies": {
+    "@types/backbone.marionette": "0.0.24",
     "jest": "^20.0.4",
     "typescript": "^2.4.2"
   },
