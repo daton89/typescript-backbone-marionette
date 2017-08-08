@@ -4,7 +4,8 @@
   "description": "Simple Boilerplate for Backbone Marionette with Typescript and System.js",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "dev": "lite-server"
   },
   "repository": {
     "type": "git",
@@ -25,11 +26,13 @@
   "devDependencies": {
     "@types/backbone.marionette": "0.0.24",
     "jest": "^20.0.4",
+    "lite-server": "^2.3.0",
     "typescript": "^2.4.2"
   },
   "dependencies": {
     "backbone": "^1.3.3",
     "backbone.marionette": "^3.4.0",
-    "jquery": "^3.2.1"
+    "jquery": "^3.2.1",
+    "systemjs": "^0.20.17"
   }
 }
