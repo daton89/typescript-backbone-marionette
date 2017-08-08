@@ -12,8 +12,15 @@
     <script language="javascript" type="text/javascript" src="node_modules/backbone/backbone.js"></script>
     <script language="javascript" type="text/javascript" src="node_modules/backbone.marionette/lib/backbone.marionette.js"></script>
     <script language="javascript" type="text/javascript" src="node_modules/systemjs/dist/system.js"></script>
+    <script language="javascript" type="text/javascript" src="node_modules/typescript/lib/typescript.js"></script>
+
     <script>
-        SystemJS.import('index.js');
+        System.config({
+            transpiler: 'typescript'
+        });
+        System
+            .import('./index.ts')
+            .then(null, console.error.bind(console));
     </script>
 
 </head>
